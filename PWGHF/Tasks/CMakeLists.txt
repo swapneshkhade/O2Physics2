@@ -109,3 +109,31 @@ o2physics_add_dpl_workflow(sel-optimisation
                     SOURCES HFSelOptimisation.cxx
                     PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
                     COMPONENT_NAME Analysis)
+
+o2physics_add_dpl_workflow(correlator-d0-hadrons-old
+                    SOURCES HFCorrelatorD0Hadrons_old.cxx
+                    PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
+                    COMPONENT_NAME Analysis)
+
+o2physics_add_dpl_workflow(task-correlation-d0-hadrons-old
+                    SOURCES taskCorrelationD0Hadrons_old.cxx
+                    PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
+                    COMPONENT_NAME Analysis)
+
+o2physics_add_dpl_workflow(correlator-d0-hadrons-sam
+                    SOURCES HFCorrelatorD0Hadrons_sam.cxx
+                    PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
+                    COMPONENT_NAME Analysis)
+
+o2physics_add_dpl_workflow(task-correlation-d0-hadrons-sam
+                    SOURCES taskCorrelationD0Hadrons_sam.cxx
+                    PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
+                    COMPONENT_NAME Analysis)
+
+o2physics_add_dpl_workflow(correlator-d0-hadrons-event-mix
+                    SOURCES HFCorrelatorD0Hadrons_event_mix.cxx
+                    PUBLIC_LINK_LIBRARIES O2::Framework O2Physics::AnalysisCore O2::DetectorsVertexing
+                    COMPONENT_NAME Analysis)
+
+
+

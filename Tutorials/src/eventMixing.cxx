@@ -19,6 +19,8 @@
 #include "Common/DataModel/EventSelection.h"
 #include "Common/DataModel/Centrality.h"
 #include "Common/DataModel/Multiplicity.h"
+#include "Framework/AnalysisDataModel.h"
+
 
 using namespace o2;
 using namespace o2::framework;
